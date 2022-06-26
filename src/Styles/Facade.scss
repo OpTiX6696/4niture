@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Upright:wght@300;400;500;600&family=Forum&family=Great+Vibes&family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,600;0,700;1,100&family=PT+Serif:ital@0;1&family=Pacifico&family=Podkova:wght@400;500;600;700&family=Satisfy&family=Syne:wght@400;500;600&family=Tangerine:wght@400;700&family=The+Nautigal:wght@400;700&display=swap');
+
+
 
 img {
   width: 200px;
 }
 
-div#facade {
+#facade {
   border: 2px solid red;
   display: flex;
   align-items: center;
@@ -12,8 +15,21 @@ div#facade {
   gap: 5%;
 }
 
-div#facade_text {
+#facade_text {
   width: 35%;
+  padding-left: 60px;
+
+  &_bold {
+    color: rgb(3, 46, 22);
+    font-family: 'Syne', serif;
+    font-size: 3rem;
+  }
+
+  &_normal {
+    padding-left: 20px;
+    border-left: 4px solid rgba(128, 128, 128, 0.466);
+    line-height: 20px;
+  }
 }
 
 div#facade_img {
