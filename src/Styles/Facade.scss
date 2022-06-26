@@ -1,0 +1,42 @@
+
+img {
+  width: 200px;
+}
+
+div#facade {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
+  gap: 5%;
+}
+
+div#facade_text {
+  width: 35%;
+}
+
+div#facade_img {
+  width: 60%;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div#facade_img_big {
+
+    width: 80%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  div#facade_img_smalls {
+    width: 20%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
