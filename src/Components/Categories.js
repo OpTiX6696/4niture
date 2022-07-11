@@ -2,7 +2,7 @@
 
 const Categories = [
   {
-    nav: 'Chairs',
+    nav: 'Chair',
     link: '/link',
   },
   {
@@ -14,11 +14,11 @@ const Categories = [
     link: '/link',
   },
   {
-    nav: 'Drawers',
+    nav: 'Drawer',
     link: '/link',
   },
   {
-    nav: 'Tables',
+    nav: 'Table',
     link: '/link',
   }
 ]
