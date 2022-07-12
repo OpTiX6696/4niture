@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from './Logo';
 import Search from './Search';
+import '../Styles/Header.scss'
 
 function Header() {
 
@@ -8,7 +9,7 @@ function Header() {
 
   return (
     <div>
-      <div className='logo'>
+      <div className='header'>
         <Logo />
         <Search />
       </div>

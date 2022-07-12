@@ -16,7 +16,6 @@ function App() {
 
       <CartContext.Provider value={[cart, setCart]}>
         <Header />
-        {/* <BaseLayout /> */}
       </CartContext.Provider>
 
       <Facade />
